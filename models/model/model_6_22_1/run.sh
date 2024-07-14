@@ -1,0 +1,22 @@
+# training
+python train.py \
+--name='test' \
+--which_epoch=9 \
+--experiment_name='predict' \
+--data_dir='/home/ftt/UAVM/datasets/University-Release/train' \
+--views=3 \
+--droprate=0.5 \
+--extra \
+--share \
+--stride=1 \
+--h=256 \
+--w=256 \
+--lr=0.005 \
+--gpu_ids='0' \
+--norm='spade' \
+--iaa \
+--multi_weather \
+--btnk 0 1 1 0 0 0 0 \
+--conv_norm='none' \
+--alpha=1 \
+--adain='a'
